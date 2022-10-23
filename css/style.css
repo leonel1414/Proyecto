@@ -1,0 +1,15 @@
+* {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*::selection {
+	background: #006241;
+	color: #fff;
+}
+@media(min-width:470px){}
+@media(min-width:768px){}
+@media(min-width:960px){}
+@media(min-width:1024px){}
