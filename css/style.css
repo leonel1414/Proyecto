@@ -74,6 +74,22 @@
 	display: none;
 	user-select: none;
 }
+.gallery {
+	background-color: #006241;
+	padding: 2em 0;
+}
+
+.gallery__container-img {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 0 1.5em;
+}
+
+.gallery__img {
+	margin-top: 1.5em;
+}
 @media(min-width:470px){
     .main__title {
 		font-weight: bold;
@@ -144,6 +160,16 @@
 	.main__description {
 		font-size: 1rem;
 	}
+    .gallery__container-img {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.gallery__img {
+		width: 30%;
+	}
+
 }
 @media(min-width:960px){
     .header__nav-link {
